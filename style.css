@@ -1,0 +1,108 @@
+* {
+margin: 0;
+    font-family: Montserrat;
+}
+
+body {
+    margin-top: 125px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTitle {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.formFields {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    font-size: 24px;
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.pib {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.idCard {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.birthDate {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.formButton {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #5091ea;
+    color: white;
+    border-radius: 10px;
+    width: 325px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: #4680cc;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 630px;
+    border-radius: 20px;
+}
