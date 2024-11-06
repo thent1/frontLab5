@@ -11,12 +11,16 @@ body {
     align-items: center;
 }
 
+#inputForm {
+    padding-top: 10px;
+}
+
 .formTitle {
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .formFields {
@@ -38,14 +42,12 @@ input {
 .pib {
     display: flex;
     justify-content: center;
-    align-items: left;
     flex-direction: column;
 }
 
 .group {
     display: flex;
     justify-content: center;
-    align-items: left;
     flex-direction: column;
     margin-top: 15px;
 }
@@ -53,7 +55,6 @@ input {
 .idCard {
     display: flex;
     justify-content: center;
-    align-items: left;
     flex-direction: column;
     margin-top: 15px;
 }
@@ -61,7 +62,6 @@ input {
 .birthDate {
     display: flex;
     justify-content: center;
-    align-items: left;
     flex-direction: column;
     margin-top: 15px;
 }
@@ -69,7 +69,6 @@ input {
 .email {
     display: flex;
     justify-content: center;
-    align-items: left;
     flex-direction: column;
     margin-top: 15px;
 }
@@ -105,4 +104,47 @@ input {
     width: 600px;
     height: 630px;
     border-radius: 20px;
+}
+
+.leftBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.rightBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    gap: 20px;
+}
+
+.externalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+td {
+    width: 75px;
+    height: 75px;
+}
+
+table {
+    text-align: center;
+}
+
+#colorInput {
+    width: 400px;
+    height: 35px;
+    border: 2px solid #000;
 }
